@@ -1,6 +1,6 @@
 # [level 0] 주사위의 개수 - 120845 
 
-[문제 링크](https://school.programmers.co.kr/learn/courses/30/lessons/120845?language=java) 
+[문제 링크](https://school.programmers.co.kr/learn/courses/30/lessons/120845) 
 
 ### 성능 요약
 
@@ -16,7 +16,7 @@
 
 ### 제출 일자
 
-2024년 09월 22일 16:22:40
+2024년 09월 22일 16:23:09
 
 ### 문제 설명
 
