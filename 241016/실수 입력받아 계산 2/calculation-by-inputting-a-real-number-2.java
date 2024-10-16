@@ -8,6 +8,6 @@ public class Main {
         double a = Double.parseDouble(br.readLine());
 
         double result = a + 1.5;
-        System.out.printf("%.3f", result);
+        System.out.printf("%.2f", result);
     }
 }
