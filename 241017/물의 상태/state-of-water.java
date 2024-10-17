@@ -8,7 +8,7 @@ public class Main {
 
     int n = Integer.parseInt(br.readLine());
     String answer = "";
-    if (n < 0) {
+    if (n <= 0) {
       answer = "ice";
     } else if (n >= 100){
       answer = "vapor";
