@@ -12,8 +12,10 @@ public class Main {
         answer = "book";
     } else if (n >= 1000) {
         answer = "mask";
-    } else {
+    } else if (n >= 500){
         answer = "pen";
+    } else {
+        answer = "no";
     }
 
     System.out.println(answer);
