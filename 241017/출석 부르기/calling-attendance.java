@@ -8,11 +8,11 @@ public class Main {
 
     int n = Integer.parseInt(br.readLine());
     String answer = "";
-    if (n = 1) {
+    if (n == 1) {
       answer = "John";
-    } else if (n = 2){
+    } else if (n == 2){
       answer = "Tom";
-    } else if (n = 3) {
+    } else if (n == 3) {
       answer = "paul";
     } else {
         answer = "Vacancy";
