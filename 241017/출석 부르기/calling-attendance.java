@@ -13,7 +13,7 @@ public class Main {
     } else if (n == 2){
       answer = "Tom";
     } else if (n == 3) {
-      answer = "paul";
+      answer = "Paul";
     } else {
         answer = "Vacancy";
     }
