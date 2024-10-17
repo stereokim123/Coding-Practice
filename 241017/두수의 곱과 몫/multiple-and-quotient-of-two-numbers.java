@@ -10,8 +10,8 @@ public class Main {
     int a = Integer.parseInt(input[0]);
     int b = Integer.parseInt(input[1]);
 
-    System.out.println(a " * " + b + " = " + (a * b));
-    System.out.println(a " / " + b + " = " + (a / b));
+    System.out.println(a + " * " + b + " = " + (a * b));
+    System.out.println(a + " / " + b + " = " + (a / b));
 
   }
 }
