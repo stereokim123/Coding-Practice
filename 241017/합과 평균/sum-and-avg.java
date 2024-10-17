@@ -9,7 +9,8 @@ public class Main {
     String[] input = br.readLine().split(" ");
     int a = Integer.parseInt(input[0]);
     int b = Integer.parseInt(input[1]);
+    double result = (double) (a+b)/2;
 
-    System.out.println((a+b) + " " + (a+b)/2);
+    System.out.printf((a+b) + " " + "%.1f", result);
   }
 }
