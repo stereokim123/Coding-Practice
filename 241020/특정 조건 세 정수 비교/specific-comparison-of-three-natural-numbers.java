@@ -14,15 +14,15 @@ public class Main {
         int answer2;
 
         if (a == b && a == c){
-            answer1 = "1"
+            answer1 = 1;
         } else {
-            answer1 = "0";
+            answer1 = 0;
         }
 
         if (a == b && a == c) {
-            answer2 = "1";
+            answer2 = 1;
         } else {
-            answer2 = "0";
+            answer2 = 0;
         }
 
         System.out.println(answer1 + " " + answer2);
