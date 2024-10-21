@@ -18,6 +18,12 @@ public class Main {
             answer = b;
         } else if (c < b && c < a) {
             answer = c;
+        } else if (a == b && a < c) {
+            answer = a;
+        } else if (a == c && a < b) {
+            answer = a;
+        } else if (a == b && a == c) {
+            answer = a;
         }
 
         System.out.println(answer);
