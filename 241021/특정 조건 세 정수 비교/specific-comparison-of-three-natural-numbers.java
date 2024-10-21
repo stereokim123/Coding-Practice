@@ -12,22 +12,17 @@ public class Main {
         int c = Integer.parseInt(input[2]);
         int answer1;
         int answer2;
-        
+
         if (a < b && a < c) {
             answer1 = 1;
-        }
-
-        if (a == b && b < c) {
+        }else if (a == b && b < c) {
             answer1 = 1;
-        } else {
+        } else if (a == c && c < b) {
+            answer1 = 0;
+        }else {
             answer1 = 0;
         }
 
-        if (a == c && c < b) {
-            answer1 = 1;
-        } else {
-            answer1 = 0;
-        }
 
         if (a == b && a == c) {
             answer2 = 1;
