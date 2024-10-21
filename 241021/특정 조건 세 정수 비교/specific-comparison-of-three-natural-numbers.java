@@ -13,16 +13,11 @@ public class Main {
         int answer1;
         int answer2;
 
-        if (a < b && a < c) {
+        if (a <= b && a <= c) {
             answer1 = 1;
-        }else if (a == b && b < c) {
-            answer1 = 1;
-        } else if (a == c && c < b) {
-            answer1 = 0;
-        }else {
+        } else {
             answer1 = 0;
         }
-
 
         if (a == b && a == c) {
             answer2 = 1;
