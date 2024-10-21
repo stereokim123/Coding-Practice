@@ -12,6 +12,10 @@ public class Main {
         int c = Integer.parseInt(input[2]);
         int answer1;
         int answer2;
+        
+        if (a < b && a < c) {
+            answer1 = 1;
+        }
 
         if (a == b && b < c) {
             answer1 = 1;
