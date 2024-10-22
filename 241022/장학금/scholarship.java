@@ -12,13 +12,12 @@ public class Main {
         int b = Integer.parseInt(input[1]);
         int answer = 0;
 
-        while(a >= 90) {
-            if (b >= 95) {
-                answer = 100000;
-            } else if (b >= 90) {
-                answer = 50000;
-            }
-
+        if (a >= 90 && b >= 95) {
+            answer = 100000;
+        } else if (a >= 90 && b >= 90) {
+            answer = 50000;
+        } else {
+            answer = 0;
         }
 
         System.out.println(answer);
