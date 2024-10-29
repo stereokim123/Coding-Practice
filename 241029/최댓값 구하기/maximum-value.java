@@ -11,16 +11,16 @@ public class Main {
     int b = Integer.parseInt(input[1]);
     int c = Integer.parseInt(input[2]);
 
-    int answer = 0;
-    if (a > b && a > c) {
-        answer = a;
-    } else if (b > a && b > c) {
-        answer = b;
-    } else if (c > a && c > b) {
-        answer = c;
+    int max = a;
+
+    if (b > max) {
+        max = b;
+    } 
+    if (c > max) {
+        max = c;
     }
 
-      System.out.println(answer);
+      System.out.println(max);
 
   }
 }
